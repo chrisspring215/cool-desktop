@@ -10324,107 +10324,131 @@ th.hide-for-touch {
   }
 }
 /* line 2, ../scss/_style.scss */
+html {
+  background-color: #111;
+}
+
+/* line 7, ../scss/_style.scss */
 header {
-  background-color: #222;
+  background-color: #0e0000;
   border-bottom: 2px solid #666;
   font-family: 'Roboto Slab', serif;
 }
-/* line 9, ../scss/_style.scss */
+/* line 14, ../scss/_style.scss */
 header h1 {
   font-weight: bold;
-  color: #fff;
+  color: #552211;
   font-family: 'Roboto Slab', serif;
 }
 
-/* line 17, ../scss/_style.scss */
+/* line 22, ../scss/_style.scss */
 main {
   background-color: #BA4100;
   height: 90%;
-  background-image: url(../img/blue_sky.jpg);
+  background: url(../img/vr.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-/* line 26, ../scss/_style.scss */
+/* line 34, ../scss/_style.scss */
 main .functional a {
   margin-top: 30px;
-  border: 6px solid #179CE8;
+  transition: border 0.25s ease, color 0.25s ease;
+  border: 6px solid #cc5522;
   color: #fff;
   display: block;
   padding: .75em 0;
   font-weight: bold;
   font-family: 'Roboto Slab', serif;
-  background-color: #333;
+  background-color: #0e0000;
 }
-/* line 38, ../scss/_style.scss */
+/* line 47, ../scss/_style.scss */
 main .functional a:hover {
-  border: 6px solid #bada55;
+  transition: border 0.25s ease, color 0.25s ease;
+  border: 6px solid #534F36;
+  color: #99957c;
 }
-/* line 46, ../scss/_style.scss */
+/* line 57, ../scss/_style.scss */
 main .reference a {
   margin-top: 30px;
-  border: 6px solid #26EFFF;
+  transition: border 0.25s ease;
+  border: 6px solid #cc8877;
   color: #fff;
   display: block;
   padding: .75em 0;
   font-weight: bold;
   font-family: 'Roboto Slab', serif;
-  background-color: #333;
+  background-color: #0e0000;
 }
-/* line 58, ../scss/_style.scss */
+/* line 70, ../scss/_style.scss */
 main .reference a:hover {
-  border: 6px solid #bada55;
+  transition: border 0.25s ease, color 0.25s ease;
+  border: 6px solid #534F36;
+  color: #99957c;
 }
-/* line 66, ../scss/_style.scss */
+/* line 80, ../scss/_style.scss */
 main .data a {
   margin-top: 30px;
-  border: 6px solid #17E8B7;
+  transition: border 0.25s ease;
+  border: 6px solid #ee9955;
   color: #fff;
   display: block;
   padding: .75em 0;
   font-weight: bold;
   font-family: 'Roboto Slab', serif;
-  background-color: #333;
+  background-color: #0e0000;
 }
-/* line 78, ../scss/_style.scss */
+/* line 93, ../scss/_style.scss */
 main .data a:hover {
-  border: 6px solid #bada55;
+  transition: border 0.25s ease, color 0.25s ease;
+  border: 6px solid #534F36;
+  color: #99957c;
 }
-/* line 86, ../scss/_style.scss */
+/* line 103, ../scss/_style.scss */
 main .other a {
   margin-top: 30px;
-  border: 6px solid #19FF81;
+  transition: border 0.25s ease;
+  border: 6px solid #ffddbb;
   color: #fff;
   display: block;
   padding: .75em 0;
   font-weight: bold;
   font-family: 'Roboto Slab', serif;
-  background-color: #333;
+  background-color: #0e0000;
 }
-/* line 98, ../scss/_style.scss */
+/* line 116, ../scss/_style.scss */
 main .other a:hover {
-  border: 6px solid #bada55;
+  transition: border 0.25s ease, color 0.25s ease;
+  border: 6px solid #534F36;
+  color: #99957c;
 }
-/* line 106, ../scss/_style.scss */
+/* line 126, ../scss/_style.scss */
 main .contact a {
   margin-top: 30px;
+  transition: border 0.25s ease;
   border: 6px solid #19FF81;
   color: #fff;
   display: block;
   padding: .75em 0;
   font-weight: bold;
   font-family: 'Roboto Slab', serif;
-  background-color: #333;
+  background-color: #0e0000;
 }
-/* line 118, ../scss/_style.scss */
+/* line 139, ../scss/_style.scss */
 main .contact a:hover {
-  border: 6px solid #bada55;
+  transition: border 0.25s ease, color 0.25s ease;
+  border: 6px solid #534F36;
+  color: #99957c;
 }
 
-/* line 125, ../scss/_style.scss */
+/* line 148, ../scss/_style.scss */
 footer {
   position: fixed;
   bottom: 0;
-  background-color: #222;
+  background-color: #0e0000;
   width: 100%;
-  color: #fff;
+  color: #552211;
   padding: 2em 0 1em 0;
   border-top: 2px solid #666;
   font-family: 'Roboto Slab', serif;
